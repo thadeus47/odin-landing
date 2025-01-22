@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #1f2937; */
+  }
+
+  a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+  }
+  
+  ul li{
+    color: #f9faf8;
+  }
