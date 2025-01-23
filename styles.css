@@ -20,7 +20,7 @@ body {
      font-size: medium;
      font-weight: bold;  
   }
-  
+
   a {
     text-decoration: none;
     color: #e5e7eb;
@@ -52,3 +52,38 @@ body {
   ul li{
     color: #f9faf8;
   }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 20px;
+    font-weight: 900;
+  }
+  .hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  .hero-left button {
+    padding: 8px 16px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
